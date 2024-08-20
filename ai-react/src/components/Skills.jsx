@@ -2,10 +2,12 @@ import React from 'react'
 
 export default function Skills() {
   const ski = {
-    JavaScript: ['React'],
-    Python: ['Data Analysis'],
-    Web: ['Sass'],
-    Design: ['Canva'],
+    ['Machine Learning']: ['Pytorch','TensorFlow',' Scikit-learn'],
+    ['Full Stack']: ['Spring', 'Spring boot', 'Spring Security', 'Hibernate', 'Node.js', 'React',
+      'AWS', 'GCP', 'MySQL', 'PostgreSQL', 'ElasticSearch', 'Git', 'Linux', 'Docker', 'Postman'],
+    ['Programming Language']: ['Java', 'Python', 'go', 'JavaScript','HTML'],
+    Design: ['Canva','Illustrater'],
+    ['Others']: ['Research','Data Analysis','Technical Writing'],
   }  
 
 

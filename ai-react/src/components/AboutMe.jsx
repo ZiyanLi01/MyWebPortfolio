@@ -11,7 +11,19 @@ export default function AboutMe(props) {
             </div>
             
             <h2 className='font-medium text-slate-800 text-lg sm:text-2xl'>Software Engineer| Machine Learning Engineer</h2>
-            <p className='text-slate-500'>think about what to put here! write something short to let the people know you in a seconds</p>
+            
+            <p className='text-slate-500'>
+            A Ph.D. in Geophysics with expertise in machine learning, focused on developing deep learning models for real-time earthquake prediction during postdoctoral research. 
+            </p>
+            
+            <p className='text-slate-500'>
+            Passionate about making complex models accessible to non-experts, leading to a transition into full-stack development. 
+            </p>
+
+            <p className='text-slate-500'>
+            1+ year of self-taught experience has resulted in several projects that integrate machine learning with user-friendly interfaces.
+            </p>
+
             <div className='my-10 flex items-center gap-4 text-sm sm:text-medium'>
                 <button onClick = {openModal} className='rounded-full bg-gradient-to-r from-blue-600 to-violet-500 text-white px-4 py-2 hover:opacity-50'>Projects</button>
                 <button className='rounded-full text-purple-800 border border-solid border-violet-800 px-4 py-2'>Papers</button>
