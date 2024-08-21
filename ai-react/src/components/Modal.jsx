@@ -11,7 +11,7 @@ export default function Modal({ contentType, onClose }) {
         />
         <div className="relative z-10 p-8">
           <div className="flex justify-between items-center mb-8">
-            <h2 className="text-2xl font-bold text-white">
+            <h2 className="text-2xl font-bold text-slate">
               {contentType === 'projects' ? 'Projects' : 'Published Papers'}
             </h2>
             <button onClick={onClose} className="text-white text-2xl">✖</button>
@@ -19,15 +19,37 @@ export default function Modal({ contentType, onClose }) {
 
           {contentType === 'projects' && (
             <div className="flex flex-col gap-4">
-              <div className="bg-purple-600 bg-opacity-50 p-4 rounded-lg text-white">
+            {/* Project1 */}
+              <div className="bg-slate-200 bg-opacity-50 p-4 rounded-lg text-slate">
                 <h3 className="font-bold">Project Title 1</h3>
                 <p className="text-sm">Description for project 1...</p>
                 <div className="mt-2 flex gap-4">
-                  <a href="#live" className="text-blue-400">Live</a>
+                  <a href="#live" className="text-blue-400">Demo</a>
                   <a href="#github" className="text-blue-400">GitHub</a>
                 </div>
               </div>
-              {/* Add more projects here */}
+
+              {/* Project2 */}
+              <div className="bg-slate-200 bg-opacity-50 p-4 rounded-lg text-slate">
+                <h3 className="font-bold">Project Title 1</h3>
+                <p className="text-sm">Description for project 1...</p>
+                <div className="mt-2 flex gap-4">
+                  <a href="#live" className="text-blue-400">Demo</a>
+                  <a href="#github" className="text-blue-400">GitHub</a>
+                </div>
+              </div>
+
+              {/* Project3 */}
+              <div className="bg-slate-200 bg-opacity-50 p-4 rounded-lg text-slate">
+                <h3 className="font-bold">Project Title 1</h3>
+                <p className="text-sm">Description for project 1...</p>
+                <div className="mt-2 flex gap-4">
+                  <a href="#live" className="text-blue-400">Demo</a>
+                  <a href="#github" className="text-blue-400">GitHub</a>
+                </div>
+              </div>
+              {/* Add more projects if you need here */}
+
             </div>
           )}
 
@@ -35,8 +57,8 @@ export default function Modal({ contentType, onClose }) {
             <div className="flex flex-col gap-8">
               {/* Machine Learning Section */}
               <div>
-                <h3 className="text-xl font-bold text-white mb-4">Machine Learning Related</h3>
-                <ul className="list-disc pl-5 space-y-2 text-white">
+                <h3 className="text-xl font-bold text-black mb-4">Machine Learning Related</h3>
+                <ul className="list-disc pl-5 space-y-2 text-black">
                   <li>Author(s), "Title of the Paper," Journal Name, Year.</li>
                   <li>Author(s), "Title of the Paper," Journal Name, Year.</li>
                   {/* Add more references as needed */}
@@ -45,8 +67,8 @@ export default function Modal({ contentType, onClose }) {
 
               {/* Geophysics Section */}
               <div>
-                <h3 className="text-xl font-bold text-white mb-4">Geophysics Related</h3>
-                <ul className="list-disc pl-5 space-y-2 text-white">
+                <h3 className="text-xl font-bold text-black mb-4">Geophysics Related</h3>
+                <ul className="list-disc pl-5 space-y-2 text-black">
                   <li>Author(s), "Title of the Paper," Journal Name, Year.</li>
                   <li>Author(s), "Title of the Paper," Journal Name, Year.</li>
                   {/* Add more references as needed */}
