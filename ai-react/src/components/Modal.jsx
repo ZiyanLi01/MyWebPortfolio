@@ -55,22 +55,26 @@ export default function Modal({ contentType, onClose }) {
 
           {contentType === 'papers' && (
             <div className="flex flex-col gap-8">
-              {/* Machine Learning Section */}
+              {/* Machine Learning & Statistics Models */}
               <div>
-                <h3 className="text-xl font-bold text-black mb-4">Machine Learning Related</h3>
+                <h3 className="text-xl font-bold text-black mb-4">Machine Learning & Statistics Models </h3>
                 <ul className="list-disc pl-5 space-y-2 text-black">
-                  <li>Author(s), "Title of the Paper," Journal Name, Year.</li>
-                  <li>Author(s), "Title of the Paper," Journal Name, Year.</li>
+                  <li>Li, Z*., Eaton, D. W., & Davidsen, J. (2023). Physics-informed deep learning to forecast Mmax during hydraulic fracturing. Scientific Reports, 13(1), 13133.</li>
+                  <li>Li, Z*., Eaton, D., & Davidsen, J. (2022). Short-term forecasting of Mmax during hydraulic fracturing. Scientific Reports, 12(1), 1-12.</li>
+                  <li>Li, Z*., Elsworth, D., & Wang, C. (2022). Induced microearthquakes predict permeability creation in the brittle crust. Frontier in Earth science, DOI: 10.3389/feart.2022.1020294.</li>
                   {/* Add more references as needed */}
                 </ul>
               </div>
 
-              {/* Geophysics Section */}
+              {/* Geophysics & Petrolem Engineering*/}
               <div>
-                <h3 className="text-xl font-bold text-black mb-4">Geophysics Related</h3>
+                <h3 className="text-xl font-bold text-black mb-4">Geophysics & Petrolem Engineering</h3>
                 <ul className="list-disc pl-5 space-y-2 text-black">
-                  <li>Author(s), "Title of the Paper," Journal Name, Year.</li>
-                  <li>Author(s), "Title of the Paper," Journal Name, Year.</li>
+                  <li>Li, Z*., Elsworth, D. & Wang, C (2022), Effect of pore pressure magnitude on the frictional properties and permeability evolution of fractures in schist. Journal of Geomechanics and Geophysics for Geo-energy and Geo-resources. 8, 214. https://doi.org/10.1007/s40948-022-00504-0</li>
+                  <li>Li, Z*., Elsworth, D., & Wang, C. (2021). Constraining maximum event magnitude during injection-triggered seismicity. Nature communications, 12(1), 1-9.</li>
+                  <li>Li, Z*., D. Elsworth et al. (2019) A new apparatus for the concurrent measurement of friction and permeability evolution in fault gouge, International Journal of Rock Mechanics and Mining Sciences, https://doi.org/10.1016/j.ijrmms.2019.06.005</li>
+                  <li>Li, Z*., D. Elsworth. (2019), Controls of CO2-N2 gas flood ratios on enhanced shale gas recovery and ultimate CO2 sequestration, Journal Petroleum Science and Engineering, https://doi.org/10.1016/j.petrol.2019.04.098</li>
+                  
                   {/* Add more references as needed */}
                 </ul>
               </div>
