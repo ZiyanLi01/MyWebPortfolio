@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
     const links=[
-        ['Email','liz525354@gmail.com'],
+        ['Email','mailto:liz525354@gmail.com'],
         ['GitHub','https://github.com/ZiyanLi01'],
         ['Linkedin','https://www.linkedin.com/in/ziyan-7757b6105/']
     ]

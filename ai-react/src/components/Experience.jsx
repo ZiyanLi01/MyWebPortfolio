@@ -9,7 +9,8 @@ export default function Experience() {
             description: [
                 'Developed deep learning models using TensorFlow and Keras to predict induced earthquakes with 90% accuracy, based on over 10,000 seismic events from Alberta\'s Duvernay shale play.',
                 'Conducted comparative analysis between traditional and physics-informed deep learning models to uncover relationships between seismic patterns and earthquake magnitudes.',
-                'Visualized predictions and correlations using Matplotlib and integrated the model into operational forecasting systems for real-time mitigation.'
+                'Visualized predictions and correlations using Matplotlib and integrated the model into operational forecasting systems for real-time mitigation.',
+                'Collaborated with interdisciplinary teams from academia and industry to evaluate the impact of industrial activities on seismic events.',
             ],
         },
         {
@@ -18,7 +19,8 @@ export default function Experience() {
             year: '2020 Jan - 2021 May',
             description: [
                 'Developed a supervised machine learning model using XGBoost in Scikit-learn, achieving 90% accuracy in predicting permeability in brittle crusts.',
-                'Analyzed hydraulic stimulation data, performed feature importance analysis, and optimized the model through cross-validation and hyperparameter tuning. ',
+                'Analyzed data and performed feature importance analysis, and optimized the model through cross-validation and hyperparameter tuning. ',
+                'Present research findings to sponsors and share updates during sponsor meetings',
                 'Authored a research paper on the findings (Li & Elsworth, 2022).'
             ],
         },

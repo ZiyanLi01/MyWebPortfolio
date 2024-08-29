@@ -21,33 +21,55 @@ export default function Modal({ contentType, onClose }) {
             <div className="flex flex-col gap-4">
             {/* Project1 */}
               <div className="bg-slate-200 bg-opacity-50 p-4 rounded-lg text-slate">
-                <h3 className="font-bold">Project Title 1</h3>
-                <p className="text-sm">Description for project 1...</p>
+                <h3 className="font-bold">Project 1: Social Network with Generative AI </h3>
+                <p className="text-sm">I developed a social network application where users can create and share posts, with AI-generated images enhancing content creation. 
+                  The platform includes powerful search features for quick post discovery and interaction. 
+                  It ensures a secure, seamless experience through strong authentication and is built to scale with growing user activity without sacrificing performance.</p>
+                  <p className="text-sm"> </p>
+                  <div className="mt-2 flex gap-4">
+                <p className="text-sm font-bold">Tech & Tools:</p>
+                <p className="text-sm "> Go, React.JS, OpenAI API, ElasticSearch, JWT, Google cloud storage, Google App Engine.</p>
+                </div>
                 <div className="mt-2 flex gap-4">
-                  <a href="#live" className="text-blue-400">Demo</a>
-                  <a href="#github" className="text-blue-400">GitHub</a>
+                  <a href="https://www.youtube.com/watch?v=rgodCACGD14" className="text-blue-400">Demo</a>
+                  <a href="https://github.com/ZiyanLi01/Around" className="text-blue-400">GitHub</a>
                 </div>
               </div>
 
-              {/* Project2 */}
-              <div className="bg-slate-200 bg-opacity-50 p-4 rounded-lg text-slate">
-                <h3 className="font-bold">Project Title 1</h3>
-                <p className="text-sm">Description for project 1...</p>
+            {/* Project2 */}
+            <div className="bg-slate-200 bg-opacity-50 p-4 rounded-lg text-slate">
+                <h3 className="font-bold">Project 2: Mini Airbnb </h3>
+                <p className="text-sm">I developed a web application that allows hosts to list and manage accommodations while enabling customers to search and reserve stays. 
+                  The platform offers efficient data management for stay details and reservation history, along with enhanced user experience through location-based search. 
+                  It ensures secure transactions and provides a responsive, engaging user interface, all while maintaining scalability and reliability to handle increasing demand.</p>
+                  <p className="text-sm"> </p>
+                  <div className="mt-2 flex gap-4">
+                <p className="text-sm font-bold">Tech & Tools:</p>
+                <p className="text-sm "> Java, Spring boot, Spring security, ElasticSearch, AWS, JavaScript, HTML, CSS</p>
+                </div>
                 <div className="mt-2 flex gap-4">
-                  <a href="#live" className="text-blue-400">Demo</a>
-                  <a href="#github" className="text-blue-400">GitHub</a>
+                  <a href="https://www.youtube.com/watch?v=J62yJdGXPXU" className="text-blue-400">Demo</a>
+                  <a href="https://github.com/ZiyanLi01/StayBooking_Project" className="text-blue-400">GitHub</a>
                 </div>
               </div>
 
-              {/* Project3 */}
-              <div className="bg-slate-200 bg-opacity-50 p-4 rounded-lg text-slate">
-                <h3 className="font-bold">Project Title 1</h3>
-                <p className="text-sm">Description for project 1...</p>
+            {/* Project1 */}
+            <div className="bg-slate-200 bg-opacity-50 p-4 rounded-lg text-slate">
+                <h3 className="font-bold">Project 3: Mini DoorDash</h3>
+                <p className="text-sm">I developed a web application that offers users a smooth experience for registering, searching menus, placing orders, and completing checkouts. 
+                  The system is scalable and efficiently manages menu data, ensuring seamless user interactions. 
+                  The application supports easy cart additions and quick order placement, providing an intuitive and responsive user interface while maintaining reliable service delivery.</p>
+                  <p className="text-sm"> </p>
+                  <div className="mt-2 flex gap-4">
+                <p className="text-sm font-bold">Tech & Tools:</p>
+                <p className="text-sm "> Spring, Hibernate, PostgreSQL, ReactJS, Ant Design, AWS (RDS,ECR,App Runner).</p>
+                </div>
                 <div className="mt-2 flex gap-4">
-                  <a href="#live" className="text-blue-400">Demo</a>
-                  <a href="#github" className="text-blue-400">GitHub</a>
+                  <a href="https://youtu.be/VSWFGuATXcY" className="text-blue-400">Demo</a>
+                  <a href="https://github.com/ZiyanLi01/Online-Order-Web" className="text-blue-400">GitHub</a>
                 </div>
               </div>
+
               {/* Add more projects if you need here */}
 
             </div>

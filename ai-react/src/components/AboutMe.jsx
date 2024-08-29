@@ -19,13 +19,14 @@ export default function AboutMe(props) {
           Software Engineer | Machine Learning Engineer
         </h2>
         <p className="text-slate-500">
-        Ph.D. in Geophysics with expertise in machine learning and 2 years of experience developing deep learning models as a postdoctoral associate. 
+        Ph.D. in Geophysics with expertise in machine learning and 2 years of experience developing deep learning models for industry as a postdoctoral associate.
         </p>
         <p className="text-slate-500">
-        Passionate about making complex models accessible to non-experts, which inspired a transition into full-stack development.
+        2 years of hands-on full-stack development experience, leading to several projects that seamlessly integrate machine learning with user-friendly interfaces.
+        
         </p>
         <p className="text-slate-500">
-        1+ year of self-taught full-stack experience has led to several projects that seamlessly integrate machine learning with user-friendly interfaces.
+        Passionate about creating scalable, user-friendly applications accessible to millions, and integrating advanced machine learning models into practical, impactful solutions.
         </p>
         
       </div>
